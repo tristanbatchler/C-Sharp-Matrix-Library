@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\Tristan\OneDrive\C# Projects\Neural Network\sandscastle.shfbproj" started="31/07/2018 9:31:52 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs-builder.shfbproj" started="31/07/2018 2:48:55 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Locating components in the following folder(s):
-    C:\Users\Tristan\OneDrive\C# Projects\Neural Network
+    C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
 Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
@@ -18,35 +18,31 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Matrix.xml
-Source: C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Matrix.sln
-    Found project &#39;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Matrix.csproj&#39;
+Source: C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.sln
+    Found project &#39;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\bin\Debug\ConsoleApplication.exe&#39;
+    Found assembly &#39;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\bin\Debug\ConsoleApplication.exe&#39;
 SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.5&#39; to &#39;.NET Framework 4.0&#39; for the build.
 
 References to include (excluding framework assemblies):
     None
-
-Copying XML comments files
-    C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Matrix.xml -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Matrix.xml
-    C:\Users\Tristan\OneDrive\C# Projects\Neural Network\bin\Debug\docs.xml -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\docs.xml
+SHFB: Warning BE0062: No documentation source XML comments files found.  The help file will not contain any member comments.
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.2061
+</plugIn>    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 31/07/2018 9:31:53 AM.
-Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Build started 31/07/2018 2:48:57 PM.
+Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -61,18 +57,18 @@ GenerateRefInfo:
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\GenerateRefInfo.proj&quot; (default targets).
 
 Build succeeded.
 
 Time Elapsed 00:00:01.64
-    Last step completed in 00:00:02.0136
+    Last step completed in 00:00:01.9971
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 31/07/2018 9:31:55 AM.
-Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+Build started 31/07/2018 2:48:59 PM.
+Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
@@ -87,16 +83,16 @@ TransformManifest:
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\TransformManifest.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\TransformManifest.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.98
-    Last step completed in 00:00:01.3221
+Time Elapsed 00:00:00.97
+    Last step completed in 00:00:01.3080
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0140
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -110,61 +106,152 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 31/07/2018 9:31:57 AM.
-Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Build started 31/07/2018 2:49:01 PM.
+Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:00.61
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.9874
+    Last step completed in 00:00:00.9381
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1865
+    Last step completed in 00:00:00.1860
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\sandcastle.config
+C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0180
+    Last step completed in 00:00:00.0102
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 31/07/2018 9:31:58 AM.
-Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+Build started 31/07/2018 2:49:02 PM.
+Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [N:] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Matrix.Unit(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Matrix.Zero(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Salty.Maths.Matrix] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;rowCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;columnCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Add(Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Add(Salty.Maths.Matrix)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Salty.Maths.Matrix.ColumnCount] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Copy] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Copy] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Fill(System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Fill(System.Single)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetColumn(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetColumn(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetColumn(System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetHashCode] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetRow(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetRow(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetRow(System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Salty.Maths.Matrix.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Salty.Maths.Matrix.Item(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;param name=&quot;k&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;param name=&quot;k&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_UnaryNegation(Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_UnaryNegation(Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_UnaryNegation(Salty.Maths.Matrix)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Print] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Print(Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Print(Salty.Maths.Matrix)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;param name=&quot;rowCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;param name=&quot;columnCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Randomise] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Randomize] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Salty.Maths.Matrix.RowCount] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Scale(System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Scale(System.Single)] Missing &lt;param name=&quot;k&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.ToString] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.ToString] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Transpose] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Transpose] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Unit(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Unit(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Unit(System.Int32)] Missing &lt;param name=&quot;size&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;param name=&quot;rowCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;param name=&quot;columnCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
   Processed 43 topic(s)
-  3 warning(s)
+  94 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\BuildTopics.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.03
-    Last step completed in 00:00:06.4116
+Time Elapsed 00:00:05.72
+    Last step completed in 00:00:06.0848
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -175,119 +262,119 @@ E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website
+Processing website files in C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website
 Processed 43 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\WebKI.xml
-Saving website table of contents to C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.9983
+Saving website keyword index to C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\WebKI.xml
+Saving website table of contents to C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\WebTOC.xml
+    Last step completed in 00:00:00.9432
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\AlertCaution.png
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\AlertNote.png
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\AlertSecurity.png
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\CFW.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\CodeExample.png
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\favicon.ico
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privclass.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privdelegate.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privenumeration.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privevent.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privextension.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privfield.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privinterface.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privmethod.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privproperty.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\privstructure.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protclass.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protdelegate.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protenumeration.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protevent.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protextension.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protfield.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protinterface.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protmethod.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protoperator.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protproperty.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\protstructure.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubclass.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubdelegate.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubenumeration.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubevent.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubextension.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubfield.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubinterface.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubmethod.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\puboperator.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubproperty.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\pubstructure.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\SectionCollapsed.png
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\SectionExpanded.png
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\slMobile.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\static.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\xna.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\scripts\branding.js
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-cs-CZ.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-de-DE.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-en-US.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-es-ES.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-fr-FR.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-Help1.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-HelpViewer.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-it-IT.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-ja-JP.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-ko-KR.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-pl-PL.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-pt-BR.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-ru-RU.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-tr-TR.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-Website.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-zh-CN.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding-zh-TW.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\styles\branding.css
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\index.html
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\search.html
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\SearchHelp.aspx
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\SearchHelp.inc.php
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\SearchHelp.php
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\Web.Config
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\html\GeneralError.htm
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\html\PageNotFound.htm
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\Search.png
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\TocClose.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\TocCollapsed.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\TocExpanded.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\icons\TocOpen.gif
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\scripts\branding-Website.js
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\scripts\clipboard.min.js
-D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\Neural Network\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.5489
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\AlertCaution.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\AlertNote.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\AlertSecurity.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\CFW.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\CodeExample.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\favicon.ico
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privclass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privdelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privenumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privevent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privextension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privfield.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privinterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privmethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privproperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\privstructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protclass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protdelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protenumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protevent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protextension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protfield.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protinterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protmethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protoperator.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protproperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\protstructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubclass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubdelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubenumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubevent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubextension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubfield.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubinterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubmethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\puboperator.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubproperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\pubstructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\SectionCollapsed.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\SectionExpanded.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\slMobile.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\static.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\xna.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\scripts\branding.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-cs-CZ.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-de-DE.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-en-US.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-es-ES.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-fr-FR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-Help1.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-HelpViewer.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-it-IT.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-ja-JP.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-ko-KR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-pl-PL.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-pt-BR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-ru-RU.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-tr-TR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-Website.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-zh-CN.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding-zh-TW.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\styles\branding.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\index.html
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\search.html
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\SearchHelp.aspx
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\SearchHelp.inc.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\SearchHelp.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\Web.Config
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\html\GeneralError.htm
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\html\PageNotFound.htm
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\Search.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\TocClose.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\TocCollapsed.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\TocExpanded.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\icons\TocOpen.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\scripts\branding-Website.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\scripts\clipboard.min.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00.1965
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.6110
+</plugIn>    Last step completed in 00:00:00.6210
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 153 files for the website content
-    Last step completed in 00:00:00.5674
+    Last step completed in 00:00:00.5310
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0890
+    Last step completed in 00:00:00.0750
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 31/07/2018 9:32:07 AM.  Total time: 00:00:15.1579
+Build completed successfully at 31/07/2018 2:49:10 PM.  Total time: 00:00:14.4108
 
 </buildStep>
 </shfbBuild>
