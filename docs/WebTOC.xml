@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="5711b39a-4f6c-4ca8-895a-5466904b9326" Title="Salty.Maths" Url="html/9ffab555-9c4d-92bb-d9e6-e36c623912c0.htm">
-    <HelpTOCNode Id="1f97ad20-559b-4702-9c24-89d5a9984501" Title="Matrix Class" Url="html/0904ec81-c36f-5937-fbb1-de42efd1dfbe.htm">
+  <HelpTOCNode Id="1b14edbc-e2f2-42b6-bceb-cd07de5bfcaa" Title="Salty.Maths" Url="html/9ffab555-9c4d-92bb-d9e6-e36c623912c0.htm">
+    <HelpTOCNode Id="9c2adf2d-a3d7-4d0f-bc47-5bd174452588" Title="Matrix Class" Url="html/0904ec81-c36f-5937-fbb1-de42efd1dfbe.htm">
       <HelpTOCNode Title="Matrix Constructor " Url="html/a836d80e-52e8-d96a-3d83-c650b69988b3.htm" />
-      <HelpTOCNode Id="9fd186b8-3ff1-4365-b743-1dcdd44be1e0" Title="Matrix Properties" Url="html/836d1fb0-7433-8338-afa5-84bcce0ae103.htm">
-        <HelpTOCNode Id="a6112c5e-09f2-4dc7-bd85-8eb5cc64d663" Title="Item Property " Url="html/a149ef25-7bdd-0575-ba6a-e4e2b30b0584.htm">
+      <HelpTOCNode Id="1317f91e-9268-4a5d-be2b-b75094a041f8" Title="Matrix Properties" Url="html/836d1fb0-7433-8338-afa5-84bcce0ae103.htm">
+        <HelpTOCNode Id="9d5a8bab-0600-4447-974c-11c2e64404b2" Title="Item Property " Url="html/a149ef25-7bdd-0575-ba6a-e4e2b30b0584.htm">
           <HelpTOCNode Title="Item Property (Int32)" Url="html/a61dfc89-2b0d-cce5-602c-64f168bc1650.htm" />
           <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/ebd91eff-116a-9f39-9136-26f65caf56c4.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="4d60b410-307d-408b-89e8-47af65140bee" Title="Matrix Methods" Url="html/4dcddfe3-c447-8e22-c6be-782b4e4eb6dc.htm">
+      <HelpTOCNode Id="c2f494c6-ccca-4f23-99bb-7c652dcbdea0" Title="Matrix Methods" Url="html/4dcddfe3-c447-8e22-c6be-782b4e4eb6dc.htm">
         <HelpTOCNode Title="Add Method " Url="html/ad7dfc0d-c394-271c-9a08-1f80b46093ff.htm" />
         <HelpTOCNode Title="Copy Method " Url="html/04235b38-2d5a-691b-30d3-b7ac71ece86a.htm" />
         <HelpTOCNode Title="Equals Method " Url="html/95021426-8640-9601-5c70-2a5092c0a72e.htm" />
@@ -19,7 +19,7 @@
         <HelpTOCNode Title="GetColumn Method " Url="html/de1872b3-a90c-c32d-3720-6d31f8ed18c2.htm" />
         <HelpTOCNode Title="GetHashCode Method " Url="html/77159643-6dc2-a321-eb4e-5b079c0260e3.htm" />
         <HelpTOCNode Title="GetRow Method " Url="html/cb6c57ff-9798-dc47-7044-e6c0c9ab5f47.htm" />
-        <HelpTOCNode Id="5db3d9e1-2195-4c10-8e4d-82fccdd2f265" Title="Print Method " Url="html/531276e3-5055-8ef6-29b6-ffc0d7bfee04.htm">
+        <HelpTOCNode Id="11834929-fd74-48a6-9ab1-d3da291e807f" Title="Print Method " Url="html/531276e3-5055-8ef6-29b6-ffc0d7bfee04.htm">
           <HelpTOCNode Title="Print Method " Url="html/15fd6212-490b-5c37-678e-5c19d6e903db.htm" />
           <HelpTOCNode Title="Print Method (Matrix)" Url="html/cb171965-e294-9a36-95e8-44586f082e5f.htm" />
         </HelpTOCNode>
@@ -35,11 +35,11 @@
         <HelpTOCNode Title="Unit Method " Url="html/da047065-0286-3af2-bbd6-06292148c079.htm" />
         <HelpTOCNode Title="Zero Method " Url="html/a4f16ef6-9467-7f1c-36c8-5ba7d49480b5.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="61514fa0-f23a-426c-825c-3ac0d4afca3a" Title="Matrix Operators" Url="html/e4fcfde8-83bd-11c2-7d55-aa596593ddc3.htm">
+      <HelpTOCNode Id="6a66ff7a-cca3-4f07-a1b7-5ad3b75248a4" Title="Matrix Operators" Url="html/e4fcfde8-83bd-11c2-7d55-aa596593ddc3.htm">
         <HelpTOCNode Title="Addition Operator " Url="html/15a55b26-d586-6d25-3ac6-24992e590d11.htm" />
         <HelpTOCNode Title="Equality Operator " Url="html/99c1b32b-9610-cc80-32d0-b48728705400.htm" />
         <HelpTOCNode Title="Inequality Operator " Url="html/f0fdbd78-2459-878d-b1e1-b86804cf7d6c.htm" />
-        <HelpTOCNode Id="fc5f307b-2ac9-48b6-8ba8-b63a4fb2abf0" Title="Multiply Operator " Url="html/6e7d4606-dba9-21bb-2b74-6d5e35b10c9b.htm">
+        <HelpTOCNode Id="725b6748-ecce-443b-98c0-785bd7e4abe3" Title="Multiply Operator " Url="html/6e7d4606-dba9-21bb-2b74-6d5e35b10c9b.htm">
           <HelpTOCNode Title="Multiply Operator (Single, Matrix)" Url="html/1841fcee-125c-d8be-423d-01c102c61612.htm" />
           <HelpTOCNode Title="Multiply Operator (Matrix, Matrix)" Url="html/d290b055-0dc2-5236-6815-0098a2f89fcd.htm" />
           <HelpTOCNode Title="Multiply Operator (Matrix, Single)" Url="html/356e2359-840f-99ab-7131-e9f19dc65707.htm" />
@@ -47,7 +47,7 @@
         <HelpTOCNode Title="Subtraction Operator " Url="html/e33a23de-6680-5662-3f8b-916e4dc7e0af.htm" />
         <HelpTOCNode Title="UnaryNegation Operator " Url="html/0918b399-4b66-5354-120b-3474fa586424.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="394426c2-ad15-4fe9-9c61-5f927ca3b59a" Title="Matrix Fields" Url="html/45dd7a26-5b93-a540-25f2-53e0c59bb4c4.htm">
+      <HelpTOCNode Id="59d99775-5ba4-4326-ac4f-01beb499fb0f" Title="Matrix Fields" Url="html/45dd7a26-5b93-a540-25f2-53e0c59bb4c4.htm">
         <HelpTOCNode Title="ColumnCount Field" Url="html/e58fce2c-2de0-c63b-8713-c4e6afe65457.htm" />
         <HelpTOCNode Title="RowCount Field" Url="html/84cf63c4-4dfa-3970-d2c9-44648badae26.htm" />
       </HelpTOCNode>

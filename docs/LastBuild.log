@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs-builder.shfbproj" started="31/07/2018 2:56:44 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs-builder.shfbproj" started="31/07/2018 3:09:54 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -15,33 +15,38 @@ Copyright &#169; 2006-2018, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 -------------------------------
 Clearing any prior web/markdown output...
+    Ignoring folder &#39;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\icons&#39;: The process cannot access the file &#39;privinterface.gif&#39; because it is being used by another process.
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.sln
+Source: C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.xml
+Source: C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.csproj
     Found project &#39;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\bin\Debug\ConsoleApplication.exe&#39;
+    Found assembly &#39;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\.\ConsoleApplication.exe&#39;
+    Ignoring duplicate comments file &#39;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.xml&#39;
 SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.5&#39; to &#39;.NET Framework 4.0&#39; for the build.
 
 References to include (excluding framework assemblies):
     None
-SHFB: Warning BE0062: No documentation source XML comments files found.  The help file will not contain any member comments.
+
+Copying XML comments files
+    C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\Matrix.xml -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Matrix.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0330
+</plugIn>    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 31/07/2018 2:56:46 PM.
+Build started 31/07/2018 3:09:56 PM.
 Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -61,19 +66,23 @@ Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix
 
 Build succeeded.
 
-Time Elapsed 00:00:01.58
-    Last step completed in 00:00:01.9494
+Time Elapsed 00:00:01.60
+    Last step completed in 00:00:02.0047
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 31/07/2018 2:56:48 PM.
+Build started 31/07/2018 3:09:58 PM.
 Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.ungrouped&quot;.
+  AddNamespaceGroups (v2018.7.8.0)
+  Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved
+  Added 0 namespace group entries
   Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
   XslTransform (v2018.7.8.0)
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
@@ -87,12 +96,12 @@ Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix
 
 Build succeeded.
 
-Time Elapsed 00:00:00.97
-    Last step completed in 00:00:01.3121
+Time Elapsed 00:00:00.99
+    Last step completed in 00:00:01.3293
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:00.0095
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -106,7 +115,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 31/07/2018 2:56:49 PM.
+Build started 31/07/2018 3:09:59 PM.
 Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
@@ -117,26 +126,26 @@ Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix
 
 Build succeeded.
 
-Time Elapsed 00:00:00.63
+Time Elapsed 00:00:00.61
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.9561
+    Last step completed in 00:00:00.9396
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1700
+    Last step completed in 00:00:00.1590
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0170
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 31/07/2018 2:56:50 PM.
+Build started 31/07/2018 3:10:00 PM.
 Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
@@ -144,110 +153,19 @@ BuildTopics:
   Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [T:Salty.Maths.Matrix] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;rowCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;columnCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Add(Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Add(Salty.Maths.Matrix)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:Salty.Maths.Matrix.ColumnCount] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Copy] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Copy] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Fill(System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Fill(System.Single)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Get(System.Int32,System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetColumn(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetColumn(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetColumn(System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetHashCode] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetRow(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetRow(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.GetRow(System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Salty.Maths.Matrix.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Salty.Maths.Matrix.Item(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Addition(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Equality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Inequality(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(Salty.Maths.Matrix,System.Single)] Missing &lt;param name=&quot;k&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;param name=&quot;k&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Multiply(System.Single,Salty.Maths.Matrix)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_Subtraction(Salty.Maths.Matrix,Salty.Maths.Matrix)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_UnaryNegation(Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_UnaryNegation(Salty.Maths.Matrix)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.op_UnaryNegation(Salty.Maths.Matrix)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Print] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Print(Salty.Maths.Matrix)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Print(Salty.Maths.Matrix)] Missing &lt;param name=&quot;m&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;param name=&quot;rowCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Random(System.Int32,System.Int32)] Missing &lt;param name=&quot;columnCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Randomise] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Randomize] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:Salty.Maths.Matrix.RowCount] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Scale(System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Scale(System.Single)] Missing &lt;param name=&quot;k&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Set(System.Int32,System.Int32,System.Single)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;param name=&quot;col&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetColumn(System.Int32,System.Single[])] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.SetRow(System.Int32,System.Single[])] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.ToString] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.ToString] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Transpose] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Transpose] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Unit(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Unit(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Unit(System.Int32)] Missing &lt;param name=&quot;size&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;param name=&quot;rowCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Salty.Maths.Matrix.Zero(System.Int32,System.Int32)] Missing &lt;param name=&quot;columnCount&quot;/&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
-  Processed 43 topic(s)
-  94 warning(s)
+BuildAssembler : warning : ShowMissingComponent: [G:] Missing &lt;summary&gt; documentation [C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj]
+  Processed 44 topic(s)
+  3 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.65
-    Last step completed in 00:00:06.0075
+Time Elapsed 00:00:05.71
+    Last step completed in 00:00:06.0794
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -263,11 +181,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website
-Processed 43 HTML files
+Processed 44 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\WebKI.xml
 Saving website table of contents to C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\WebTOC.xml
-    Last step completed in 00:00:00.9261
+    Last step completed in 00:00:00.9191
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -349,7 +267,7 @@ D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\scripts\branding-Website.js
 D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\scripts\clipboard.min.js
 D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Tristan\OneDrive\C# Projects\C-Sharp-Matrix-Library\docs\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.2039
+    Last step completed in 00:00:00.1876
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -360,21 +278,21 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.5850
+</plugIn>    Last step completed in 00:00:00.4180
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 153 files for the website content
-    Last step completed in 00:00:00.5360
+Copied 154 files for the website content
+    Last step completed in 00:00:00.5062
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0780
+    Last step completed in 00:00:00.0890
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 31/07/2018 2:56:58 PM.  Total time: 00:00:14.0867
+Build completed successfully at 31/07/2018 3:10:08 PM.  Total time: 00:00:14.0100
 
 </buildStep>
 </shfbBuild>
